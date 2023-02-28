@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center; /*x axis*/
+  align-items: center; /*y axis*/
+  flex-direction: column;
+}
+.git-card {
+  border: 1px solid gray;
+  box-shadow: 10px;
+  border-radius: 5px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body > input {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+
+  /* border: pink; */
+}
+body button {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* width: 10%; */
+  background-color: lightblue;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: pink;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+body > span {
+  width: 100%;
+  text-align: centre;
+}
+.interaction {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+
+  border: 1px solid black;
+  box-shadow: 10px;
+  border-radius: 5px;
+}
+.followers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.following {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.repo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.info {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid grey;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+body img {
+  position: absolute;
+  width: 20%;
+}
+.xx {
+  font-weight: bold;
+}
+.imgdiv {
+  height: 75px;
+  background-color: rgb(255, 92, 92);
+  position: relative;
+}
+.imgdiv img {
+  background-color: rgb(255, 92, 92);
+}
+.logo {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.profile-img {
+  height: 120px;
+  width: 120px;
+  background-color: lightblue;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 120px / 2);
+  top: 45%;
+  overflow: hidden;
+}
+#pro-img-id {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

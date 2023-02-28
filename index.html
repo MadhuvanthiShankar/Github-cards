@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Cards</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Username" />
+      <button type="submit">Find</button>
+    </form>
+    <div class="git-card">
+      <div class="imgdiv">
+        <img class="logo" src="/logo.png" alt="" />
+        <div class="profile-img">
+          <img
+            id="pro-img-id"
+            src="https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="info">
+        <h2 id="info-name-id" class="name">Name</h2>
+        <p id="info-username-id">@username</p>
+        <p id="bio-id">Bio</p>
+        <div class="interaction">
+          <div class="followers">
+            <span id="followers-num-id" class="xx">N/A</span>
+            <span>Followers</span>
+          </div>
+          <div class="following">
+            <span id="following-num-id" class="xx">N/A</span>
+            <span>Following</span>
+          </div>
+          <div class="repo">
+            <span id="repo-num-id" class="xx">N/A</span>
+            <span>Repositories</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
